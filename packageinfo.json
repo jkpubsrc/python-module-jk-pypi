@@ -1,0 +1,51 @@
+{
+	"language": "python3",
+	"name": "jk_pypi",
+	"version": "0.2019.9.12",
+	"meta": {
+		"description": "This python module allows retrieving data from pypi.org.",
+		"keywords": [
+			"pypi"
+		],
+		"license": "Apache 2.0",
+		"development_status": "stable",
+		"authors": [
+			{
+				"name": "Jürgen Knauth",
+				"email": "pubsrc@binary-overflow.de"
+			}
+		],
+		"wiki": {
+			"page": "DevDocs:jk_pypi"
+		}
+	},
+	"repositories": [
+		{
+			"type": "github",
+			"user": "jkpubsrc",
+			"project": "python-module-jk-pypi",
+			"devon_publish": false
+		},
+		{
+			"type": "pypy",
+			"project": "jk_pypi",
+			"devon_publish": false
+		}
+	],
+	"source": {
+		"packages": [
+			"jk_pypi"
+		],
+		"extra_data_files": [
+		]
+	},
+	"requirements": {
+		"python_packages": [
+			"bs4",
+			"jk_utils"
+		],
+		"python_packages_dev": [
+		]
+	}
+}
+
