@@ -4,22 +4,12 @@
 Introduction
 ------------
 
-This python module ...
+This python module allows retrieving data from pypi.org. Please note that currently it has very limited capabilities.
 
 Information about this module can be found here:
 
 * [github.org](https://github.com/jkpubsrc/....)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_pypi)
-
-Why this module?
-----------------
-
-...
-
-Limitations of this module
---------------------------
-
-...
 
 How to use this module
 ----------------------
@@ -29,10 +19,15 @@ How to use this module
 Please include this module into your application using the following code:
 
 ```python
-impoert jk_pypi
+import jk_pypi
 ```
 
-...
+### Retrieve the version of a module
+
+```python
+v = pypi.getModuleVersion("jk-pypi")
+print(v)
+```
 
 Contact Information
 -------------------

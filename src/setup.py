@@ -16,27 +16,29 @@ def readme():
 		return f.read()
 
 setup(
-	author = "JÃ¼rgen Knauth",
+	author = "Jürgen Knauth",
 	author_email = "pubsrc@binary-overflow.de",
 	classifiers = [
 		"Programming Language :: Python :: 3",
-		"Development Status :: 3 - Alpha",
+		"Development Status :: 5 - Production/Stable",
 		"License :: OSI Approved :: Apache Software License",
 	],
-	description = "This python module ...",
-	download_url = "https://github.com/jkpubsrc/......../tarball/0.2019.9.12",
+	description = "This python module allows retrieving data from pypi.org.",
+	download_url = "https://github.com/jkpubsrc/python-module-jk-pypi/tarball/0.2019.9.12",
 	include_package_data = False,
 	install_requires = [
+		"bs4",
+		"jk_utils",
 	],
 	keywords = [
-		"...",
+		"pypi",
 	],
 	license = "Apache 2.0",
 	name = "jk_pypi",
 	packages = [
 		"jk_pypi",
 	],
-	url = "https://github.com/jkpubsrc/........",
+	url = "https://github.com/jkpubsrc/python-module-jk-pypi",
 	version = "0.2019.9.12",
 	zip_safe = False,
 	long_description = readme(),
