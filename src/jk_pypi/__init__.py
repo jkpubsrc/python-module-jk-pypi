@@ -1,7 +1,8 @@
-﻿
 
 
-__version__ = "0.2019.9.12"
+
+__author__ = "Jürgen Knauth"
+__version__ = "0.2022.8.12"
 
 
 

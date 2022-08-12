@@ -1,51 +1,41 @@
 {
-	"language": "python3",
-	"name": "jk_pypi",
-	"version": "0.2019.9.12",
+	"magic": {
+		"magic": "packageinfo",
+		"version": 2
+	},
 	"meta": {
+		"authors": [
+			{
+				"email": "pubsrc@binary-overflow.de",
+				"name": "J\u00fcrgen Knauth"
+			}
+		],
 		"description": "This python module allows retrieving data from pypi.org.",
+		"development_status": "stable",
 		"keywords": [
 			"pypi"
 		],
-		"license": "Apache 2.0",
-		"development_status": "stable",
-		"authors": [
-			{
-				"name": "Jürgen Knauth",
-				"email": "pubsrc@binary-overflow.de"
-			}
-		],
-		"wiki": {
-			"page": "DevDocs:jk_pypi"
-		}
-	},
-	"repositories": [
-		{
-			"type": "github",
-			"user": "jkpubsrc",
-			"project": "python-module-jk-pypi",
-			"devon_publish": false
-		},
-		{
-			"type": "pypy",
-			"project": "jk_pypi",
-			"devon_publish": false
-		}
-	],
-	"source": {
-		"packages": [
-			"jk_pypi"
-		],
-		"extra_data_files": [
-		]
+		"language": "python3",
+		"license": "Apache2",
+		"name": "jk_pypi",
+		"packageClass": "python-module",
+		"version": "0.2022.8.12"
 	},
 	"requirements": {
+		"htmlcssjs_packages": [],
 		"python_packages": [
 			"bs4",
 			"jk_utils"
 		],
-		"python_packages_dev": [
+		"python_packages_dev": [],
+		"python_packages_recommended": [],
+		"system_apt_packages": []
+	},
+	"source": {
+		"extra_binary_files": [],
+		"extra_data_files": [],
+		"packages": [
+			"jk_pypi"
 		]
 	}
 }
-

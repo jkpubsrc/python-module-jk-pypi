@@ -19,13 +19,12 @@ setup(
 	author = "Jürgen Knauth",
 	author_email = "pubsrc@binary-overflow.de",
 	classifiers = [
-		"Programming Language :: Python :: 3",
 		"Development Status :: 5 - Production/Stable",
 		"License :: OSI Approved :: Apache Software License",
+		"Programming Language :: Python :: 3",
 	],
 	description = "This python module allows retrieving data from pypi.org.",
-	download_url = "https://github.com/jkpubsrc/python-module-jk-pypi/tarball/0.2019.9.12",
-	include_package_data = False,
+	include_package_data = True,
 	install_requires = [
 		"bs4",
 		"jk_utils",
@@ -33,14 +32,19 @@ setup(
 	keywords = [
 		"pypi",
 	],
-	license = "Apache 2.0",
+	license = "Apache2",
 	name = "jk_pypi",
+	package_data = {
+		"": [
+		],
+	},
 	packages = [
 		"jk_pypi",
 	],
-	url = "https://github.com/jkpubsrc/python-module-jk-pypi",
-	version = "0.2019.9.12",
+	scripts = [
+	],
+	version = '0.2022.8.12',
 	zip_safe = False,
 	long_description = readme(),
-	long_description_content_type="text/markdown",
+	long_description_content_type = "text/markdown",
 )

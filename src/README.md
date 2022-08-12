@@ -1,4 +1,4 @@
-﻿jk_pypi
+jk_pypi
 ==========
 
 Introduction
@@ -8,7 +8,7 @@ This python module allows retrieving data from pypi.org. Please note that curren
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/....)
+* [github.org](https://github.com/jkpubsrc/python-module-jk-pypi)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_pypi)
 
 How to use this module
@@ -20,6 +20,14 @@ Please include this module into your application using the following code:
 
 ```python
 import jk_pypi
+```
+
+### Instantiate main class
+
+For getting access to the PyPi server instantiate `PyPi`:
+
+```python
+pypi = jk_pypi.PyPi()
 ```
 
 ### Retrieve the version of a module
