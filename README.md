@@ -8,7 +8,7 @@ This python module allows retrieving data from pypi.org. Please note that curren
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/python-module-jk-pypi)
+* [github.com](https://github.com/jkpubsrc/python-module-jk-pypi)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_pypi)
 
 How to use this module
